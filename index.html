@@ -11,233 +11,79 @@
 <body>
     <div class="grid-2">
         <div class="section-1">
-            <i class="fas fa-code fa-5x white"></i>
-            <h2>FirstName LastName</h2>
-            <p>City,Country.</p>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <!-- <i class="fas fa-code fa-5x white"></i> -->
+            <img width="150px" src="gingerbread-man.svg">
+            <h2>Gingerbread House Competition 2022</h2>
+            <p>Ford Robotics Building Atrium</p>
+            <p>December 17 2022 5-7pm</p>
         </div>
         <div class="section-2">
             <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas sint et nihil iusto eius nostrum sit error, repellat optio quisquam! Magnam dolore iusto cumque. Nostrum error iste neque maiores.</p>
-            <h2>Experience</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem.</p>
+            <p>You have been challenged to demonstrate your creativity and holiday spirit through the construction of gingerbread houses. Your prized creations will go through a rigorous judging process by a panel of young tasting professionals. Persons of all ages and departments are encouraged to participate. No baking or artistic skill is required.<p>
+            <p>Don't have time for such nonsense?</p>
+            <p> Join the viewing party for hot chocolate and gingerbread man decorating (while supplies last).</p>
 
-            <h2>Skills</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
-            <h2>Projects</h2>
-            <a href="#">Project 1</a>
-            <a href="#">Project 2</a>
-            <a href="#">Project 3</a>
-            <a href="#">Project 4</a>
-            <a href="#">Project 5</a>
+            <h2>Program</h2>
+            <ul>
+              <li> 5:00pm - Last-minute gingerbread house construction</li>
+              <li> 6:00pm - Gingerbread House Symposium</li>
+              <li> 6:30pm - Judging</li>
+              <li> 7:00pm - Prize</li>
+            </ul>
+            
+
+            <h2>Judging</h2>
+            <p>As we have the gingerbread houses up for display, a panel of esteemed judges will walk around an evaluate the houses according each award category. Please remember to have extra gingerbread pieces for the taste award</p>
+
+            <h2>Prizes</h2>
+            <p>Each award winner will get to select one items from the available prizes, which will include hot cocoa mug kits, holiday themed candies, and holiday decorations and toys.</p>
+
+            <h2>Awards</h2>
+            
+              <h3>Most Creative Theme</h3>
+                <p>It is encourage that each house have a theme. Example themes include: Winter Wonderland, Whoville, Robots in the Snow, Hobbit. This category will be evaluated on the creativity of the theme.<p></li>
+              <h3>Most Creative Design</h3>
+              <p>Most Creative Design focuses more on implementation rather than idea (as in Most Creative Theme). Where the materials used creative? Any original methods used for creation of materials (solar oven for gingerbread, liquid nitrogen for icing)?</p>
+              <h3>Most Tasty</h3>
+                <p>To be considered for this award, please bring a baked cookie (or kit cookie) as to not destroy your gingerbread creation. Taste will be evaluated on texture, flavor, and originality.</p>
+              <h3>Tallest</h3>
+                <p>Must still be standing by the time the judges see it.</p>
+              <h3>Best Overall</h3>
+                <p>Upto the judges discretion</p>
+
+            <h2>Rules</h2>
+            <ul>
+            <li>All gingerbread houses must be made in pairs of two. You may forfeit your right to a partner, but there will be no special consideration from the judges</li>
+            <li>100% of materials for the gingerbread house must be edible, excluding the base or any parts that are used to control parts of the gingerbread house.  (ex. lights/candles or motors for moving parts of the house).</li>
+            <li>Gingerbread and any other materials that require a stove or an oven must be made before the final construction.</li>
+            <li>Kits are allowed, but not encouraged</li>
+            <li>There is no limit on how early you start planning or start making the materials</li>
+            <li>Rice krispy treats, pound cake, and other edible building materials are allowed, but should be limited such that the spirit of the gingerbread house competition is maintained.</li>
+            <li>Height must be at least 15 cm tall</li>
+            <li>Size must be such that it can be safely transported from place of assembly to place of competition. Time for final assembly exists.</li>
+            <li>[Optional] Create a short description of your gingerbread house display for the judges</li>
+            </ul>
+
+
+
             <h2>Contact</h2>
-            <p>myEmail@email.com</p>
-            <h3> Credit </h3>
+            <p>Alia Gilbert: galia@umich.edu</p>
+            <p>Devansh Agrawal: devansh@umich.edu</p>
+            <h2> Credits </h2>
             <p>
-              Thanks to <a href="https://www.kirupa.com/html5/the_falling_snow_effect.htm">this</a> and <a href="https://github.com/giotsere/minimalist-portfolio">this</a>.
+              Website thanks to
+                <a href="https://www.kirupa.com/html5/the_falling_snow_effect.htm">this,</a>
+                <a href="https://github.com/giotsere/minimalist-portfolio">this,</a>
+                <a href="https://www.kindpng.com/imgv/hbhJRox_christmas-candy-canes-clipart-transparent-background-candy-cane/">this.</a>
             </p>
         </div>
     </div>
-
-    <style>
-  #snowflakeContainer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    display: none;
-  }
-
-  .snowflake {
-    position: fixed;
-    background-color: #CCC;
-    user-select: none;
-    z-index: 1000;
-    pointer-events: none;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-  }
-</style>
 
 <div id="snowflakeContainer">
   <span class="snowflake"></span>
 </div>
 
-<script>
-  // Array to store our Snowflake objects
-  var snowflakes = [];
-
-  // Global variables to store our browser's window size
-  var browserWidth;
-  var browserHeight;
-
-  // Specify the number of snowflakes you want visible
-  var numberOfSnowflakes = 50;
-
-  // Flag to reset the position of the snowflakes
-  var resetPosition = false;
-
-  // Handle accessibility
-  var enableAnimations = false;
-  var reduceMotionQuery = matchMedia("(prefers-reduced-motion)");
-
-  // Handle animation accessibility preferences
-  function setAccessibilityState() {
-    if (reduceMotionQuery.matches) {
-      enableAnimations = false;
-    } else {
-      enableAnimations = true;
-    }
-  }
-  setAccessibilityState();
-
-  reduceMotionQuery.addListener(setAccessibilityState);
-
-  //
-  // It all starts here...
-  //
-  function setup() {
-    if (enableAnimations) {
-      window.addEventListener("DOMContentLoaded", generateSnowflakes, false);
-      window.addEventListener("resize", setResetFlag, false);
-    }
-  }
-  setup();
-
-  //
-  // Constructor for our Snowflake object
-  //
-  function Snowflake(element, speed, xPos, yPos) {
-    // set initial snowflake properties
-    this.element = element;
-    this.speed = speed;
-    this.xPos = xPos;
-    this.yPos = yPos;
-    this.scale = 1;
-
-    // declare variables used for snowflake's motion
-    this.counter = 0;
-    this.sign = Math.random() < 0.5 ? 1 : -1;
-
-    // setting an initial opacity and size for our snowflake
-    this.element.style.opacity = (.1 + Math.random()) / 3;
-  }
-
-  //
-  // The function responsible for actually moving our snowflake
-  //
-  Snowflake.prototype.update = function () {
-    // using some trigonometry to determine our x and y position
-    this.counter += this.speed / 5000;
-    this.xPos += this.sign * this.speed * Math.cos(this.counter) / 40;
-    this.yPos += Math.sin(this.counter) / 40 + this.speed / 30;
-    this.scale = .5 + Math.abs(10 * Math.cos(this.counter) / 20);
-
-    // setting our snowflake's position
-    setTransform(Math.round(this.xPos), Math.round(this.yPos), this.scale, this.element);
-
-    // if snowflake goes below the browser window, move it back to the top
-    if (this.yPos > browserHeight) {
-      this.yPos = -50;
-    }
-  }
-
-  //
-  // A performant way to set your snowflake's position and size
-  //
-  function setTransform(xPos, yPos, scale, el) {
-    el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0) scale(${scale}, ${scale})`;
-  }
-
-  //
-  // The function responsible for creating the snowflake
-  //
-  function generateSnowflakes() {
-
-    // get our snowflake element from the DOM and store it
-    var originalSnowflake = document.querySelector(".snowflake");
-
-    // access our snowflake element's parent container
-    var snowflakeContainer = originalSnowflake.parentNode;
-    snowflakeContainer.style.display = "block";
-
-    // get our browser's size
-    browserWidth = document.documentElement.clientWidth;
-    browserHeight = document.documentElement.clientHeight;
-
-    // create each individual snowflake
-    for (var i = 0; i < numberOfSnowflakes; i++) {
-
-      // clone our original snowflake and add it to snowflakeContainer
-      var snowflakeClone = originalSnowflake.cloneNode(true);
-      snowflakeContainer.appendChild(snowflakeClone);
-
-      // set our snowflake's initial position and related properties
-      var initialXPos = getPosition(50, browserWidth);
-      var initialYPos = getPosition(50, browserHeight);
-      var speed = 5 + Math.random() * 40;
-
-      // create our Snowflake object
-      var snowflakeObject = new Snowflake(snowflakeClone,
-        speed,
-        initialXPos,
-        initialYPos);
-      snowflakes.push(snowflakeObject);
-    }
-
-    // remove the original snowflake because we no longer need it visible
-    snowflakeContainer.removeChild(originalSnowflake);
-
-    moveSnowflakes();
-  }
-
-  //
-  // Responsible for moving each snowflake by calling its update function
-  //
-  function moveSnowflakes() {
-
-    if (enableAnimations) {
-      for (var i = 0; i < snowflakes.length; i++) {
-        var snowflake = snowflakes[i];
-        snowflake.update();
-      }
-    }
-
-    // Reset the position of all the snowflakes to a new value
-    if (resetPosition) {
-      browserWidth = document.documentElement.clientWidth;
-      browserHeight = document.documentElement.clientHeight;
-
-      for (var i = 0; i < snowflakes.length; i++) {
-        var snowflake = snowflakes[i];
-
-        snowflake.xPos = getPosition(50, browserWidth);
-        snowflake.yPos = getPosition(50, browserHeight);
-      }
-
-      resetPosition = false;
-    }
-
-    requestAnimationFrame(moveSnowflakes);
-  }
-
-  //
-  // This function returns a number between (maximum - offset) and (maximum + offset)
-  //
-  function getPosition(offset, size) {
-    return Math.round(-1 * offset + Math.random() * (size + 2 * offset));
-  }
-
-  //
-  // Trigger a reset of all the snowflakes' positions
-  //
-  function setResetFlag(e) {
-    resetPosition = true;
-  }
-</script>
-
+<script src="snow.js"></script>
 
 </body>
 </html>
